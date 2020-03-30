@@ -1,0 +1,117 @@
+.container_fluid{
+
+    display:flex;
+}
+
+.container_1{
+
+width:35%;
+height:150vh;
+background-color: #f3d083;
+display:flex; 
+flex:1;
+/* flex-direction: column; */
+/* flex:1; */
+    
+}
+
+.container2{
+ 
+    display:flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.discover{
+
+    color: #866211;
+    font: bold 32px/38px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1rem;
+    padding-right: 30px;
+    position:absolute;
+     width: 45%;
+}
+
+.titu{
+
+  font-size:large;
+  bottom: 1;
+  
+  padding-right: 30px;
+  position:absolute;
+  width: 45%;
+  color:#866211;
+ }
+
+
+
+.content_height{
+    width:90px;
+    padding:2rem;
+}
+.icon-dribbble-logo{
+
+    /* color: inherit; */
+    width: 130;
+    
+
+}
+
+
+.main_img{
+
+width:30%;
+padding:0px;
+padding-top: 10rem;
+padding-bottom: 10rem;;
+padding-right: 0rem;
+padding-left: 0rem; 
+margin-right:0; 
+
+position: absolute;
+align-items: center;
+}
+
+.nlink{
+
+    position: absolute;
+    right:20px;
+    font-size: larger;
+    margin:0px;
+    padding:25px;
+    top:0; 
+    text-decoration: none;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.main_img img{
+
+    width:100%;
+
+}
+
+
+
+
+.svg{
+
+}
+.hea{
+    
+    font-size:200%;
+    font-weight: bold;
+    width:80%;
+     padding: 0rem; 
+    flex-grow: 1;
+    position: relative;
+}

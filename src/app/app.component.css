@@ -1,0 +1,538 @@
+.container_fluid{
+
+display:flex;
+flex:0;
+padding:0;
+/* flex-direction: row; */
+border:0;
+padding:0;
+margin-top:0;
+margin-bottom:0;
+margin-right:0;
+margin-left:0;
+padding-right:0;
+padding-left:0;
+padding-top:0;
+padding-bottom:0;
+overflow:hidden;
+
+/* flex-wrap: wrap; */
+
+
+}
+
+
+
+.container_1{
+
+    width:550px;
+    height:150vh;
+    background-color: #f3d083;
+    margin:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:0;
+    margin-left:0;
+    border:0;
+    display:flex;
+    flex:0;
+    flex-direction: column;
+    padding:0;
+    overflow:hidden;
+
+    /* height:100%; */
+}
+
+.content-height{
+    margin:0;
+    padding:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right: 40px;
+    margin-left:40 px;
+height:100vh;
+line-height: 20;
+overflow:hidden;
+
+}
+
+
+.icon-dribbble-logo {
+
+width:90px;
+color:#866211;
+padding:30px;
+ padding-top:90px;
+ margin-left:45px;;
+position: absolute;
+fill:#866211;
+
+}
+.discover{
+ 
+    font-size: 25px;
+    line-height: 15px;
+    color:#866211;
+    margin-left:45px;;
+
+    padding:30px;
+    padding-top:110px;
+    /* display:block; */
+    position: relative;
+
+    font-family: " 25px Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main_img{
+
+    margin-left:5px;;
+
+    width:85%;
+    padding-top:40px;
+
+}
+.main_img img{
+
+    width:100%;
+}
+
+.titleend{
+
+    font-family: "12px Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    position: relative;
+    color:#866211;
+    padding:10px;
+    padding-top:20px;
+    margin-left:45px;
+
+
+
+}
+.label1{
+
+    margin-right:40px;
+
+}
+
+.social_btns{
+    background-color: #f2f2f2;
+    color: #6e6d7a;
+     margin-left:10px;
+     /* padding-top:60px; */
+    /* padding: 5px 0px;  */
+     margin-top: 0px;
+    /* font-size: 15%; */
+    display:inline-block;
+    vertical-align: middle;
+    margin-top: -7px;
+    margin-right: 2px;
+    height:35px;
+
+    padding: 0.25rem;  
+    border-radius: 2px;   /* position: relative;
+    flex-grow: 1;
+    flex-direction: 1;
+    flex-wrap: wrap; */
+    /* margin-left:20px;
+    margin-right:45px; */
+
+}
+
+.signin_btns .button_1{
+    /* padding:0.7rem;
+    /* width: %; */
+    /* font-size: large;
+    font-weight: 500;
+    background: #4285f4;
+    border: none;
+    border-radius: 5px;
+    flex:1;
+    line-height: 1;
+    vertical-align: baseline;
+    border: 0;  */
+
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    /* border-radius: 10px; */
+    padding: 0.2rem;  
+    border-radius: 8px; 
+    text-align: center;
+    width:325px;
+    background-color:#4285f4;
+/* padding :10px 12px; */
+    position:relative;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    margin-left: 16px;
+    margin-right: 0px;
+    margin: 18px,3px 0;
+    box-sizing: border-box;
+    vertical-align : baseline;
+}
+    .signin_btns a{
+        
+            text-decoration: none;
+            color: #fff;
+            box-sizing: initial;
+            line-height: 1;
+            vertical-align: baseline;
+            border: 0;
+            text-align:"center";
+            display:flex;
+            flex:1;
+            position: relative;
+            
+        }
+        i{
+            width:5px;
+            padding-right: 35px;;
+            font-size: 25px;
+        }   
+    
+
+
+  
+    
+    hr.divider {
+        overflow: visible;
+        padding:0px;
+        margin-bottom: 10px;
+        border: none;
+        border-top: 1px solid #e0e0e0;
+        color: #6e6d7a;
+        text-align: center;
+        width:85%;
+        display:inline-block;        
+    }
+
+
+    hr.divider:after {
+        content: 'Or';
+        display: inline-block;
+        position:relative;
+        top:-7px;
+        /* top: 16px; */
+        font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding:0,16px;
+        
+        background: #fff;
+
+    }
+    hr {
+
+        overflow: visible;
+        padding:50px;
+        margin-bottom: 20px;
+        border: none;
+        border-top: 1px solid #e0e0e0;
+        color: #6e6d7a;
+        text-align: center;
+        /* display: block; */
+        /* unicode-bidi: isolate; */
+        margin-block-start: 1.1em;
+        margin-block-end: 1.1em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        margin-left: 25px;
+        
+        Width:65%;
+        content: 'Or';
+        display: inline-block;
+        position: relative;
+        top: 15px;
+        font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #fff;
+        /* display: block;
+        unicode-bidi: isolate;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        overflow: hidden;
+        border-style: inset;
+        border-width: 1px; */
+    }
+    
+   
+
+.container_2{
+
+        position:absolute;
+        margin-left:700px;
+        padding-top:8px;
+        overflow:hidden;
+
+
+}
+
+.titlee{
+
+/* width:200px; */
+position:relative;
+/* padding-top:1px; */
+ width:100%; 
+ padding-top: 50px;
+margin-left: 20px;
+margin-right: 10px;
+margin: 18px,3px 0;
+display:flex;
+vertical-align : baseline;
+font: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* margin-bottom: 26px; */
+}
+
+.text{
+    display:block;
+    width:75%;
+    padding:1rem;
+    position:absolute;
+    padding-right: 3px;
+    border-radius: 6px;
+    height:40px;
+    }
+
+    input[type=text] {
+
+        width: 90%; /* Full width */
+        padding: 15px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 5px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 10px; /* Bottom margin */
+
+        resize: vertical ;
+        position: relative;
+        margin-right:30px;
+        margin-left:20px;
+        display:flex;
+      }
+
+
+  
+
+
+.logi{
+
+    font:bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+     width:85%; 
+    display:flex;
+    flex:0;
+    flex-direction: row;
+    margin-right:40px;
+    /* position: absolute; */
+    width: 400px; 
+    padding:0;
+    height:40px;
+    /* flex:2; */
+    /* font-weight: 400; */
+    /* line-height: 3px; */
+    /* width: 100%; */
+    /* -webkit-box-sizing: border-box; */
+    /* box-sizing: border-box; */
+    /* height: 40px; */
+    /* padding: 10px 16px; */
+    /* outline: none; */
+    /* border-radius: 8px; */
+    position:relative;
+    margin-left: 5px;
+    margin-right: 40px;
+
+}
+.chekutty{
+
+     font:bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     margin-left: 5px;
+     margin-right: 20px;
+     margin-top: 15px;
+     width:95%;
+     height:50px;
+     position:relative;
+}
+
+.chekutty1{
+
+    font:bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 15px;
+    width:95%;
+    position:relative;
+    height:40px;
+}
+
+
+/* .check{
+    margin-left: 35px;
+    margin-right: 10px;
+    margin: 18px,3px 0;
+position:relative;
+text-align: "center"; 
+flex-wrap: wrap;
+font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+} */
+
+
+
+
+.a{
+
+    color: #4f3cc9;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin: 18px,3px 0;
+position:relative;
+text-align: "center"; 
+flex-wrap: wrap;
+font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.check1{
+
+    width:450px;
+     margin-left: 35px;
+    margin-right: 30px;
+    margin: 18px,3px 0; 
+    position:absolute;
+    flex-wrap: wrap;
+    font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.check{
+
+width:50px;
+margin-left: 0px;
+margin-right:15px;
+/* margin: 10px,3px 0; */
+position:absolute;
+text-align: "left"; 
+flex-wrap: wrap;
+font: " 16px Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: larger;
+margin:12px,0,0;
+padding-left: 10px;;
+} 
+.nlink{
+
+
+    /* position: absolute;
+    right:10px;
+    left:50px;
+    font-size: larger;
+    top:0; 
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    margin-right:30px;
+    margin-left:150px;
+    padding-top:40px;
+    flex-grow: 1;
+    display: flex;
+    padding:45px;
+    padding-right: 40px;
+    vertical-align: baseline;
+     font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-align:right;
+    text-decoration: none;     */
+    
+    /* display:flex;
+    flex-grow:0;
+    align-items: "center";
+    justify-content: flex-end;
+    top:40px;
+    position: absolute;
+    text-align: right;
+    right:0;
+    font-family: " 14pxHaas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:  */
+}
+
+input.button {
+    display: block;
+    width: 45%;
+    margin-top: 22px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background: #ea4c89;
+    /* -webkit-transition: all 200ms ease; */
+    /* transition: all 200ms ease; */
+    border-radius: 8px;
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    appearance: none;
+    color: white;
+    position: absolute;
+    margin-left:30px;
+    outline: none;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    width:75%;
+
+}
+
+
+.form_label{
+
+    padding:20px;
+
+}
+.container_3{
+
+
+position:absolute; 
+/* margin-right:30px;
+padding-right:70px; */
+text-align: right;
+padding:20px;
+/* margin-left:2px; */
+font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+top:0;
+right:0;
+/* left:0; */
+overflow:hidden;
+
+}
+
+.nlink{
+
+    padding-right:40px;
+}
+
+.recaptcha-terms{
+
+
+    font: normal 11px/16px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 300px;
+    color: #9e9ea7;
+    position: relative;
+    flex-wrap: wrap;
+    top:0;
+    padding-top:30px;
+    /* width:450px; */
+     margin-left: 35px;
+    margin-right: 30px;
+    margin: 18px,3px 0; 
+    /* position:absolute; */
+    /* flex-wrap: wrap; */
+    /* font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif */
+    
+}
